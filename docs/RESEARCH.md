@@ -23,4 +23,4 @@ Options include clearing behaviors, adding behaviors, and reinforcing behaviors.
 
 We did a test run, and this worked decently well. The only problem is, when running it with the GPT4All models, they seem to forget instantly how they were supposed to act. If I can't rectify this, I might have to toss the behavioral aspect out the window. (Which would probably be okay; I'm getting a bit overambitious.)
 
-UPDATE: I tried some out of the box methods and got the minstral AI to change its behavior. There may be hope yet. Even if I do move forward though, I will implement this feature much later.  
+UPDATE: I tried some out of the box methods and got the minstral AI to change its behavior. There may be hope yet. Even if I do move forward though, I will implement this feature much later. I might also look into importing external AI's, as I just found out GPT4All can run some of those as well. 
