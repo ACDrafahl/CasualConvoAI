@@ -1,5 +1,5 @@
 # CasualConvoAI 
-<p align="center"><img src="https://github.com/ACDrafahl/CasualConvoAI/assets/118315981/dccd8cfa-10f6-4916-bf58-aa5ac086f420" width="250" ><br><h1 align="center"></h1>
+<p align="center"><img src="https://github.com/ACDrafahl/CasualConvoAI/assets/118315981/088930a2-9c1e-487d-8aeb-6d6d9d7fae87" width="150" ><br><h1 align="center"></h1>
 </p>
 
 A locally hosted AI that runs on consumer level hardware using an existing LLM (Large Language Model) and user-end fine tuning for desired behaviors. The AI will respond to verbal user input and respond with speech synthesis. If possible, the AI will also feature a visual representation of speech (such as an avatar) to give it approachability and character.
