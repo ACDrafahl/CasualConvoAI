@@ -5,7 +5,7 @@
 A locally hosted AI that runs on consumer level hardware using an existing LLM (Large Language Model) and user-end fine tuning for desired behaviors. The AI will respond to verbal user input and respond with speech synthesis. If possible, the AI will also feature a visual representation of speech (such as an avatar) to give it approachability and character.
 
 # Research Findings
-Through my research I’ve arrived at a general outline for development requirements potential limitations:
+Through my research I’ve arrived at a general outline for development requirements and potential limitations:
 ## Requirements
 1. The AI must run locally on typical consumer hardware so as to avoid costly API services to existing commercial LLMs and offer full flexibility for use in the application.
 2. The speech recognition and speech synthesis model must also be free and accessible locally.
