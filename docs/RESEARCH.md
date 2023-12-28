@@ -29,3 +29,5 @@ The front runner for this is PocketSphinx by CMU Sphinx, although it seems like 
 
 Looking at online demos, I'm immediately impressed with VOSK's precision and speed. It's way better than I hoped. It seems like CMU Sphinx made this one too, and it's more updated than PocketSphinx. I think I'm going with VOSK.
 
+After some difficulty with the setup, I found something that works. It actually works decently well, which is really exciting. After overriding the overflow exception and changing to a smaller model, I'm able to get pretty consistent results. 
+
