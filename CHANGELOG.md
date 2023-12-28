@@ -1,2 +1,4 @@
 # CHANGELOG
-This will host changes I make to the code.
+##0.0.2 (25.28.2023):
+- 0.0.1 Completed basic setup for speech-to-text
+- 0.0.2 Improved setup for recognition by 
