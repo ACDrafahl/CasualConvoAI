@@ -33,3 +33,6 @@ The front runner for this is PocketSphinx by CMU Sphinx, although it seems like 
 Looking at online demos, I'm immediately impressed with VOSK's precision and speed. It's way better than I hoped. It seems like CMU Sphinx made this one too, and it's more updated than PocketSphinx. I think I'm going with VOSK.
 
 After some difficulty with the setup, I found something that works. It actually works decently well, which is really exciting. After overriding the overflow exception and changing to a smaller model, I'm able to get pretty consistent results. 
+
+## 12.29.2023: Implementing GPT4All
+Slight update on the behavioral customization: GPT4All seems to have a built-in template system that will make this way easier, which is incredible. Essentially it uses a form of prompt engineering that tacks a desired behavior on to the end of every response, i.e., "hi, who are you? [Respond like a pirate]." That behavior will be hidden, so to the user, it simply seems that the behavior has been permanently altered. 
