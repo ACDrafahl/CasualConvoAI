@@ -36,3 +36,5 @@ After some difficulty with the setup, I found something that works. It actually 
 
 ## 12.29.2023: Implementing GPT4All
 Slight update on the behavioral customization: GPT4All seems to have a built-in template system that will make this way easier, which is incredible. Essentially it uses a form of prompt engineering that tacks a desired behavior on to the end of every response, i.e., "hi, who are you? [Respond like a pirate]." That behavior will be hidden, so to the user, it simply seems that the behavior has been permanently altered. 
+
+Otherwise, I've been able to successfully get the model up and responding to manually typed prompts. 
