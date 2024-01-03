@@ -41,3 +41,5 @@ Otherwise, I've been able to successfully get the model up and responding to man
 
 ## 1.3.2023: Killing Vosk Once and for All
 I have wrestled with vosk for several days now, desperately trying to get clean output from it based on push-to-talk input, only to get glimmers of hope that were snuffed out again and again. It is no longer worth my time, nor is it a viable means of completing this project. As much as I hate to say it, it's back to the drawing board. I'm looking into Whisper.ai again, since it has some lighter models that might work on my cpu, and there's an existing repository called whisper-mic that should allow for near-real-time input with decently straightforward functionality. At this point, I'll try anything. 
+
+Upon just testing Whisper for a minute or so, it's already worlds better than vosk. I'm talking out of the package, comprehensive speech recognition with PUNCTUATION built in. It's insanely good, and I did confirm that it still runs without Wi-Fi, so the constraints of the project remain intact. 
