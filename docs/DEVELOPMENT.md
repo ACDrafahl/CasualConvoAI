@@ -1,4 +1,4 @@
-# Research
+# Development
 ## 12.27.2023: Behaviors
 Today I set up the GPT4All application and downloaded 2 models for testing. The speed of responses seem fast enough for conversations to be tolerably slow, which is a relief. 
 
@@ -38,3 +38,6 @@ After some difficulty with the setup, I found something that works. It actually 
 Slight update on the behavioral customization: GPT4All seems to have a built-in template system that will make this way easier, which is incredible. Essentially it uses a form of prompt engineering that tacks a desired behavior on to the end of every response, i.e., "hi, who are you? [Respond like a pirate]." That behavior will be hidden, so to the user, it simply seems that the behavior has been permanently altered. 
 
 Otherwise, I've been able to successfully get the model up and responding to manually typed prompts. 
+
+## 1.3.2023: Killing Vosk Once and for All
+I have wrestled with vosk for several days now, desperately trying to get clean output from it based on push-to-talk input, only to get glimmers of hope that were snuffed out again and again. It is no longer worth my time, nor is it a viable means of completing this project. As much as I hate to say it, it's back to the drawing board. I'm looking into Whisper.ai again, since it has some lighter models that might work on my cpu, and there's an existing repository called whisper-mic that should allow for near-real-time input with decently straightforward functionality. At this point, I'll try anything. 
