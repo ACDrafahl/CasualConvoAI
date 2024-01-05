@@ -6,3 +6,6 @@
 - 0.0.1a Completed general setup of GPT4All conversation based on text input.
 ## 0.0.2 (01.03.2023):
 - 0.0.1b Removed VOSK, began implementation of Whisper
+## 0.0.2 (01.05.2023):
+- 0.0.2b Added push-to-talk functionality to Whisper
+- 0.0.3b Linked Whisper and GPT4All
