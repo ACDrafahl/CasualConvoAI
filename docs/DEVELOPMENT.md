@@ -52,4 +52,4 @@ From my research, I've found a few candidates: Coqui TTS, TorToiSe, and Piper. C
 ## 1.8.2023 Testing TTS
 After some tedious difficulties with setup, I was able to get Coqui working. However, running a simple sentence took almost a minute, and with speech-to-text and AI generation already taking time on their own, I'm not willing to tack on that much time for a response. Even without those barriers, it would be a dull conversation. 
 
-So, I'm trying out Piper. 
+So, I'm trying out Piper. I've finished the initial setup, but it doesn't output audio files or run properly right now in the command line (big surprise there, nothing ever works the first time around). I'll mess around with it tomorrow to see if I can get it working in python. 
