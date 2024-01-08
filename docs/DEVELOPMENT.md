@@ -48,3 +48,8 @@ Upon just testing Whisper for a minute or so, it's already worlds better than vo
 After plenty of research and several different approaches, I was able to get Whisper running with push-to-talk using the space bar. After that, all I had to do was bring in the working GPT4All code and feed in the input text as a prompt. It was definitley a eureka moment when I said "Hello," and after about ten seconds, the system responded back, "Hello, how may I help you today?" This is a huge step, and I don't want to diminish that triumph, but there's still so much more to do. I need to polish this code, but for now I'm going to move on to speech synthesis. 
 
 From my research, I've found a few candidates: Coqui TTS, TorToiSe, and Piper. Coqui looks pretty promising, so I'll probably start with that one. TorToiSe is known for being slow (hence, tortoise,) but there might be ways to speed it up. Piper is not very realistic, but it is fast, and if worst come to worst, I can default to that or built in python TTS, since they're basically on the same level. 
+
+## 1.8.2023 Testing TTS
+After some tedious difficulties with setup, I was able to get Coqui working. However, running a simple sentence took almost a minute, and with speech-to-text and AI generation already taking time on their own, I'm not willing to tack on that much time for a response. Even without those barriers, it would be a dull conversation. 
+
+So, I'm trying out Piper. 
