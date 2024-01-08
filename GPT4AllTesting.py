@@ -1,5 +1,5 @@
 from gpt4all import GPT4All
-model = GPT4All("mistral-7b-openorca.Q4_0.gguf")
+model = GPT4All("C:\Users\acdga\.cache\gpt4all\mistral-7b-openorca.Q4_0.gguf")
 # tokens = []
 # output = model.generate("The opposite of up is ", max_tokens = 25)
 with model.chat_session():
