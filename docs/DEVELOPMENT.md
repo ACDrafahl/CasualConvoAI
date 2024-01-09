@@ -53,3 +53,8 @@ From my research, I've found a few candidates: Coqui TTS, TorToiSe, and Piper. C
 After some tedious difficulties with setup, I was able to get Coqui working. However, running a simple sentence took almost a minute, and with speech-to-text and AI generation already taking time on their own, I'm not willing to tack on that much time for a response. Even without those barriers, it would be a dull conversation. 
 
 So, I'm trying out Piper. I've finished the initial setup, but it doesn't output audio files or run properly right now in the command line (big surprise there, nothing ever works the first time around). I'll mess around with it tomorrow to see if I can get it working in python. 
+
+## 1.9.2023 It's Alive!
+I scoured the Piper github repo and the entire internet to figure out why the program wasn't running properly. By God's grace, I found the answer in a single youtube comment on a tutorial video. They explained that the new version broke the expected functionality, and made it so you also had to specify the config file of the voice when generating speech. So, I did just that, and voila! WAV files generated off of my input. 
+
+Now the problem with this system is that it's limited to the command line. There isn't any detailed documentation for Piper in python right now, so I had to go with a workaround. I set up the python code to feed a command to the console with the exact file path for piper, the model file, the config file, and the text to be generated. I fully intend to update this to be less janky in the future, when better tutorials are released. But uisng this method, I was able to speak to my AI and have it speak right back. I have become Victor Frankenstein, for my creature lives!
