@@ -9,3 +9,6 @@
 ## 0.0.2 (01.05.2023):
 - 0.0.2b Added push-to-talk functionality to Whisper
 - 0.0.3b Linked Whisper and GPT4All
+## 0.0.2 (01.08.2023):
+- 0.0.4b Added Piper speech generation
+- 0.0.5b Linked Piper to AI prompts to complete flow of speech-to-text-to-AI-to-text-speech. It's alive!
