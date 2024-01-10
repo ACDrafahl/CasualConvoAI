@@ -1,5 +1,5 @@
 #To-Do
-##By Ease of Implementation:
+## By Ease of Implementation:
 1. Change logo to something like the blue guy from Disney Universe crossed with the tv bot from NintendoLand crossed with ShuffleBot from DougDoug.
 2. Find a way to hide all the gobbledy gook that's currently being printed to the console so that the user only sees clean output.
 3. Somehow interupt the push-to-talk if the spacebar is released, stopping the listening process. This might be possible through threads.
@@ -9,7 +9,7 @@
 7. Use GPT4All documentation to figure out why GPT is trying to get online when running the program, and stop it.
 8. Fix the speech bug where having too much output results in the same audio file being played again instead of overwritten.
 9. Look at GPT4All documentation to see how you can adjust behaviors based on user input
-##By Feature Priority:
+## By Feature Priority:
 1. Find a way to hide all the gobbledy gook that's currently being printed to the console so that the user only sees clean output.
 2. Actually implement a UI
 3. Somehow interupt the push-to-talk if the spacebar is released, stopping the listening process. This might be possible through threads.
