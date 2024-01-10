@@ -1,4 +1,4 @@
-#To-Do
+# To-Do
 ## By Ease of Implementation:
 1. Change logo to something like the blue guy from Disney Universe crossed with the tv bot from NintendoLand crossed with ShuffleBot from DougDoug.
 2. Find a way to hide all the gobbledy gook that's currently being printed to the console so that the user only sees clean output.
