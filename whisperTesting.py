@@ -3,6 +3,7 @@ import os
 import subprocess
 import sounddevice as sd
 import soundfile as sf
+import tkinter as tk
 from whisper_mic import WhisperMic
 from gpt4all import GPT4All
 
@@ -19,7 +20,7 @@ speechOutput = 'speechOutput.wav'
 # define the rest of the command without the text
 base_command = f'{piper_exe_path} -m {onnx_path} -c {json_path} -f {speechOutput}' # There may be a way to use this without loading in the voice every time
 
-def on_spacebar_press(mic):
+def on_spacebar_press(root, mic):
     global space_pressed
     global output
     if not space_pressed:
@@ -28,6 +29,7 @@ def on_spacebar_press(mic):
         while keyboard.is_pressed('space'):
             output += mic.listen()
             print(output)
+            text_window(root, "Testing, testing, 1-2-3")
         return output
 
 def on_spacebar_release(model):
@@ -67,7 +69,7 @@ def main():
     global output
     output = ""
     with model.chat_session():
-        keyboard.on_press_key('space', lambda event: on_spacebar_press(mic))
+        keyboard.on_press_key('space', lambda event: on_spacebar_press(root, mic))
         keyboard.on_release_key('space', lambda event: on_spacebar_release(model))
 
         keyboard.wait('esc')
