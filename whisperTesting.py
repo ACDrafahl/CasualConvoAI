@@ -20,7 +20,7 @@ speechOutput = 'speechOutput.wav'
 # define the rest of the command without the text
 base_command = f'{piper_exe_path} -m {onnx_path} -c {json_path} -f {speechOutput}' # There may be a way to use this without loading in the voice every time
 
-def on_spacebar_press(root, mic):
+def on_spacebar_press(mic):
     global space_pressed
     global output
     if not space_pressed:
@@ -29,7 +29,6 @@ def on_spacebar_press(root, mic):
         while keyboard.is_pressed('space'):
             output += mic.listen()
             print(output)
-            text_window(root, "Testing, testing, 1-2-3")
         return output
 
 def on_spacebar_release(model):
@@ -40,7 +39,7 @@ def on_spacebar_release(model):
         space_pressed = False
         prompt = output
         print("Prompt: " + prompt)
-        response = model.generate(prompt=prompt, max_tokens=100, temp=0.7)
+        response = model.generate(prompt=prompt, max_tokens=25, temp=0.7)
         speech(response)
         print(response)
         output = ""
@@ -62,14 +61,14 @@ def speech(text):
 
 def main():
     # purging old output, might be causing problems. 
-    if os.path.exists("output.wav"):
-        os.remove("output.wav")
+    if os.path.exists("speechOutput.wav"):
+        os.remove("speechOutput.wav")
     model = GPT4All("mistral-7b-openorca.Q4_0.gguf")
     mic = WhisperMic("base", "cpu", True, False, 300, 2, False, True, "~/.cache/whisper", 1)
     global output
     output = ""
     with model.chat_session():
-        keyboard.on_press_key('space', lambda event: on_spacebar_press(root, mic))
+        keyboard.on_press_key('space', lambda event: on_spacebar_press(mic))
         keyboard.on_release_key('space', lambda event: on_spacebar_release(model))
 
         keyboard.wait('esc')

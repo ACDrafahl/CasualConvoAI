@@ -2,7 +2,7 @@ import tkinter as tk
 
 main_window = tk.Tk()
 
-# main_window.configure(bg="gray7")
+main_window.configure(bg="gray7")
 main_window.title('CasualConvoAI')
 
 main_window.columnconfigure(0, weight=1)
