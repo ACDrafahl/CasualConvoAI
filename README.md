@@ -1,3 +1,6 @@
+#UPDATE: 
+The bot works! See the changelog for current progress. There are still so improvements that could be made, but it is now capable of speech-to-text-to-AI-to-text-to-speech conversation!
+
 # CasualConvoAI 
 <p align="center"><img src="https://github.com/ACDrafahl/CasualConvoAI/assets/118315981/088930a2-9c1e-487d-8aeb-6d6d9d7fae87" width="150" ><br><h1 align="center"></h1>
 </p>
