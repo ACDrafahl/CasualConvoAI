@@ -1,4 +1,4 @@
-#UPDATE: 
+# UPDATE: 
 The bot works! See the changelog for current progress. There are still so improvements that could be made, but it is now capable of speech-to-text-to-AI-to-text-to-speech conversation!
 
 # CasualConvoAI 
